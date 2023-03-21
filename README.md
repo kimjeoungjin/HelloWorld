@@ -1,2 +1,0 @@
-# HelloWorld
-git 공
