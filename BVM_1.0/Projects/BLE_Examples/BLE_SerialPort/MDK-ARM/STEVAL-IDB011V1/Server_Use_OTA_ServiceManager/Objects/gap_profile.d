@@ -1,0 +1,13 @@
+.\server_use_ota_servicemanager\objects\gap_profile.o: ../../../../../Middlewares/ST/BLE_Application/Profiles/Src/gap_profile.c
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gap_profile.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h
+.\server_use_ota_servicemanager\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <range>CODE 0x10040000 0x1007FFFF</range>
+    <loader>$TOOLKIT_DIR$\config\flashloader\ST\BlueNRG-355.flash</loader>
+  </pass>
+</flash_board>

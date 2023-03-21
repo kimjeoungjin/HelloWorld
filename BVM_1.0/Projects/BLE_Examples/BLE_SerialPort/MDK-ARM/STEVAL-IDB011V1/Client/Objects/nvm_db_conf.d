@@ -1,0 +1,16 @@
+.\client\objects\nvm_db_conf.o: ../../../../../Middlewares/ST/NVMDB/Src/nvm_db_conf.c
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db_conf.h
+.\client\objects\nvm_db_conf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h
+.\client\objects\nvm_db_conf.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\client\objects\nvm_db_conf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

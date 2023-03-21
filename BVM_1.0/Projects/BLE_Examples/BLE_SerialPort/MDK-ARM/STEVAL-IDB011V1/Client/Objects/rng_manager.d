@@ -1,0 +1,15 @@
+.\client\objects\rng_manager.o: ../../../../../Middlewares/ST/RNGMGR/Src/rng_manager.c
+.\client\objects\rng_manager.o: ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc\rng_manager.h
+.\client\objects\rng_manager.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rng.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h
+.\client\objects\rng_manager.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h

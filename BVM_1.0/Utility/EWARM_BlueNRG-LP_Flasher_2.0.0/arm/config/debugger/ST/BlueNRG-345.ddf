@@ -1,0 +1,31 @@
+
+;; Architecture extensions
+#include weak "..\ARM\ARMv6-M-SYST.ddf"
+#include weak "..\ARM\ARMv6-M-MPU.ddf"
+
+;; Memory information ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 
+;; Used to define address zones within the ARM address space (Memory). 
+;;
+;;   Name      may be almost anything
+;;   AdrSpace  must be Memory
+;;   StartAdr  start of memory block
+;;   EndAdr    end of memory block
+;;   AccType   type of access, read-only (R), read-write (RW) or SFR (W)
+
+[Memory]
+;;         Name             AdrSpace    StartAdr    EndAdr      AccType   Width
+Memory =  ROM              Memory      0x10000000  0x10001FFF  R  
+Memory =  PeriphAPB0       Memory      0x40000000  0x4000500F  W
+Memory =  PeriphAPB1       Memory      0x41000000  0x410073FF  W  
+Memory =  PeriphAHB0       Memory      0x48000000  0x488000FF  W
+Memory =  PeriphAPB2       Memory      0x60000000  0x60001BFF  W  
+Memory =  SystemSFR        Memory      0xE0000000  0xE00FFFFF  W  
+Memory =  Flash            Memory      0x10040000  0x1007FFFF  R  
+Memory =  RAM              Memory      0x20000000  0x20007FFF  RW 
+
+TrustedRanges = true
+UseSfrFilter = true
+
+[SfrInclude]
+File = BlueNRG-LP.svd

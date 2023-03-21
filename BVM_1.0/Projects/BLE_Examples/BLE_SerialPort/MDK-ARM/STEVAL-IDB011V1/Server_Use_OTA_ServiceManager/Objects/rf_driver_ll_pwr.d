@@ -1,0 +1,14 @@
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_pwr.c
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h
+.\server_use_ota_servicemanager\objects\rf_driver_ll_pwr.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h

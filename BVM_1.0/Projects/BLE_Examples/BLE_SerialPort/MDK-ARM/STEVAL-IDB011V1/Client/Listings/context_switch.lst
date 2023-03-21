@@ -1,0 +1,194 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         #line   1                "../../../../../Middlewares/ST/
+hal/Src/context_switch.s"
+    1 00000000         #line   1                "../../../../../Middlewares/ST/
+hal/Src/../inc/asm.h"
+    1 00000000         
+    2 00000000         
+    3 00000000         
+    4 00000000         
+    5 00000000         
+    6 00000000         
+    7 00000000         
+    8 00000000         
+    9 00000000         
+   10 00000000         
+   11 00000000         
+   12 00000000         
+   13 00000000         
+   14 00000000         
+   15 00000000         
+   16 00000000         
+   17 00000000         
+   18 00000000         
+   19 00000000         
+   20 00000000         #line   67               "../../../../../Middlewares/ST/
+hal/Src/../inc/asm.h"
+   67 00000000         
+   68 00000000         
+   69 00000000         
+   70 00000000         
+   71 00000000         
+   72 00000000         
+   73 00000000         
+   74 00000000         
+   75 00000000         
+   76 00000000         
+   77 00000000         
+   78 00000000         
+   79 00000000         #line   2                "../../../../../Middlewares/ST/
+hal/Src/context_switch.s"
+    2 00000000         
+    3 00000000         
+    4 00000000         
+    5 00000000         
+    6 00000000         
+    7 00000000         
+    8 00000000         
+    9 00000000         
+   10 00000000         
+   11 00000000         
+   12 00000000         
+   13 00000000         
+   14 00000000         
+   15 00000000         
+   16 00000000                 AREA             |. text|, CODE, READONLY
+   17 00000000         
+   18 00000000                 EXPORT           CS_contextSave
+   19 00000000                 EXPORT           CS_contextRestore
+   20 00000000                 IMPORT           RAM_VR
+   21 00000000         CS_contextSave
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+                               PROC
+   22 00000000 F3EF 8214       MRS              R2, CONTROL
+   23 00000004 F3EF 8109       MRS              R1, PSP
+   24 00000008 4815            LDR              R0, =0
+   25 0000000A F380 8814       MSR              CONTROL, R0
+   26 0000000E F3BF 8F6F       ISB
+   27 00000012         
+   28 00000012 B5F0            PUSH             { r4 - r7, lr }
+   29 00000014 4643            MOV              R3, R8
+   30 00000016 464C            MOV              R4, R9
+   31 00000018 4655            MOV              R5, R10
+   32 0000001A 465E            MOV              R6, R11
+   33 0000001C 4667            MOV              R7, R12
+   34 0000001E B4F8            PUSH             {R3-R7}
+   35 00000020         
+   36 00000020 4C10            LDR              R4, =RAM_VR
+   37 00000022 F3EF 8308       MRS              R3, MSP
+   38 00000026 6063            STR              R3, [R4,#4]
+   39 00000028         
+   40 00000028 B406            PUSH             { r1, r2 }
+   41 0000002A         
+   42 0000002A F3BF 8F4F       DSB
+   43 0000002E BF30            WFI
+   44 00000030         
+   45 00000030 BF00            NOP
+   46 00000032 BF00            NOP
+   47 00000034         
+   48 00000034         
+   49 00000034                 ENDP
+   50 00000034         
+   51 00000034         CS_contextRestore
+                               PROC
+   52 00000034         
+   53 00000034         
+   54 00000034         
+   55 00000034         
+   56 00000034 4C0B            LDR              R4, =RAM_VR
+   57 00000036 6864            LDR              R4, [R4,#4]
+   58 00000038 F384 8808       MSR              MSP, R4
+   59 0000003C         
+   60 0000003C B082            SUB              SP, #0x8
+   61 0000003E BC03            POP              { R0, R1 }
+   62 00000040         
+   63 00000040 BCF8            POP              { R3-R7 }
+   64 00000042 4698            MOV              R8, R3
+   65 00000044 46A1            MOV              R9, R4
+   66 00000046 46AA            MOV              R10, R5
+   67 00000048 46B3            MOV              R11, R6
+   68 0000004A 46BC            MOV              R12, R7
+   69 0000004C BCF0            POP              { R4 - R7 }
+   70 0000004E BC04            POP              { R2 }
+   71 00000050         
+   72 00000050 F380 8809       MSR              PSP, R0
+   73 00000054 F381 8814       MSR              CONTROL , R1
+   74 00000058 F3BF 8F6F       ISB
+   75 0000005C         
+   76 0000005C 4710            BX               R2
+   77 0000005E         
+   78 0000005E                 ENDP
+
+
+
+ARM Macro Assembler    Page 3 
+
+
+   79 0000005E         
+   80 0000005E 00 00           ALIGN            4
+   81 00000060                 END
+              00000000 
+              00000000 
+Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M0+ -
+-apcs=interwork --depend=.\client\objects\context_switch.d -o.\client\objects\c
+ontext_switch.o -I.\RTE\_Client -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__U
+VISION_VERSION SETA 527" --list=.\client\listings\context_switch.lst ../../../.
+./../Middlewares/ST/hal/Src/context_switch.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+. text 00000000
+
+Symbol: . text
+   Definitions
+      At line 16 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+   Uses
+      None
+Comment: . text unused
+CS_contextRestore 00000034
+
+Symbol: CS_contextRestore
+   Definitions
+      At line 51 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+   Uses
+      At line 19 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+Comment: CS_contextRestore used once
+CS_contextSave 00000000
+
+Symbol: CS_contextSave
+   Definitions
+      At line 21 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+   Uses
+      At line 18 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+Comment: CS_contextSave used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+External symbols
+
+RAM_VR 00000000
+
+Symbol: RAM_VR
+   Definitions
+      At line 20 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+   Uses
+      At line 36 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+      At line 56 in file ..\..\..\..\..\Middlewares\ST\hal\Src\context_switch.s
+
+1 symbol
+337 symbols in table

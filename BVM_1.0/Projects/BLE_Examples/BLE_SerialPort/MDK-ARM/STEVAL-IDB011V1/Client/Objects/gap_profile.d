@@ -1,0 +1,13 @@
+.\client\objects\gap_profile.o: ../../../../../Middlewares/ST/BLE_Application/Profiles/Src/gap_profile.c
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gap_profile.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\client\objects\gap_profile.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\client\objects\gap_profile.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h
+.\client\objects\gap_profile.o: ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h

@@ -1,0 +1,28 @@
+[FILEFORMAT]
+rev=1.6
+
+[CHIP]
+name=BlueNRG-LP
+endiansupport=le
+thumbsupport=true
+armsupport=false
+fpu=None
+SIMD=false
+
+
+JTAG=false
+SWD=true
+SWO_TraceD0=false
+
+[CORE]
+name=Cortex-M0+
+
+[DDF FILE]
+name=ST\BlueNRG-345.ddf
+
+[LINKER FILE]
+name=$TOOLKIT_DIR$\config\linker\ST\BlueNRG-LP.icf
+
+[FLASH LOADER]
+
+little=$TOOLKIT_DIR$\config\flashloader\ST\BlueNRG-345.board

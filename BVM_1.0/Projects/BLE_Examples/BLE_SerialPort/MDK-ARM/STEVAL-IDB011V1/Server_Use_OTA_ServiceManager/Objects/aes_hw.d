@@ -1,0 +1,16 @@
+.\server_use_ota_servicemanager\objects\aes_hw.o: ../../../../../Middlewares/ST/cryptolib/aes_hw.c
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\crypto.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\config.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/types.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/macros.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/sk.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/aes.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_low_level.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_common.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/ECB/aes_ecb.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/CMAC/aes_cmac.h
+.\server_use_ota_servicemanager\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h

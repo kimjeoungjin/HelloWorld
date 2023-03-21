@@ -1,0 +1,12 @@
+.\client\objects\rf_driver_ll_rcc.o: ../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_rcc.c
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\client\objects\rf_driver_ll_rcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\client\objects\rf_driver_ll_rcc.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h

@@ -1,0 +1,9 @@
+
+execUserFlashInit()
+{
+  __message("-I- execUserFlashInit!");
+  __writeMemory32(0x00000000, 0x200000C0,"Memory");
+  
+}
+        
+

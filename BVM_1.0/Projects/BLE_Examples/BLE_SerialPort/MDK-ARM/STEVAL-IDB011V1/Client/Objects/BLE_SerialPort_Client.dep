@@ -1,0 +1,1012 @@
+Dependencies for Project 'BLE_SerialPort', Target 'Client': (DO NOT MODIFY !)
+F (../../../../../Drivers/BSP/STEVAL-IDB011V1/Src/bluenrg_lp_evb_button.c)(0x6253D24E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_evb_button.o --omf_browse .\client\objects\bluenrg_lp_evb_button.crf --depend .\client\objects\bluenrg_lp_evb_button.d)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Drivers/BSP/STEVAL-IDB011V1/Src/bluenrg_lp_evb_com.c)(0x62B543F0)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_evb_com.o --omf_browse .\client\objects\bluenrg_lp_evb_com.crf --depend .\client\objects\bluenrg_lp_evb_com.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Drivers/BSP/STEVAL-IDB011V1/Src/bluenrg_lp_evb_i2c.c)(0x6094F21E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_evb_i2c.o --omf_browse .\client\objects\bluenrg_lp_evb_i2c.crf --depend .\client\objects\bluenrg_lp_evb_i2c.d)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Drivers/BSP/STEVAL-IDB011V1/Src/bluenrg_lp_evb_io.c)(0x6094F21E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_evb_io.o --omf_browse .\client\objects\bluenrg_lp_evb_io.crf --depend .\client\objects\bluenrg_lp_evb_io.d)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Drivers/BSP/STEVAL-IDB011V1/Src/bluenrg_lp_evb_led.c)(0x62B15D17)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_evb_led.o --omf_browse .\client\objects\bluenrg_lp_evb_led.crf --depend .\client\objects\bluenrg_lp_evb_led.d)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Drivers/BSP/STEVAL-IDB011V1/Src/bluenrg_lp_evb_spi.c)(0x6094F21E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_evb_spi.o --omf_browse .\client\objects\bluenrg_lp_evb_spi.crf --depend .\client\objects\bluenrg_lp_evb_spi.d)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Drivers/BSP/Components/lps22hh_STdC/driver/lps22hh_reg.c)(0x6094F21E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\lps22hh_reg.o --omf_browse .\client\objects\lps22hh_reg.crf --depend .\client\objects\lps22hh_reg.d)
+I (../../../../../Drivers/BSP/Components/lps22hh_STdC/driver/lps22hh_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+F (../../../../../Drivers/BSP/Components/lsm6dsox_STdC/driver/lsm6dsox_reg.c)(0x6094F21E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\lsm6dsox_reg.o --omf_browse .\client\objects\lsm6dsox_reg.crf --depend .\client\objects\lsm6dsox_reg.d)
+I (../../../../../Drivers/BSP/Components/lsm6dsox_STdC/driver/lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+F (../../../../../Drivers/CMSIS/Device/ST/BlueNRG_LP/Source/system_BlueNRG_LP.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\system_bluenrg_lp.o --omf_browse .\client\objects\system_bluenrg_lp.crf --depend .\client\objects\system_bluenrg_lp.d)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_hal_power_manager.c)(0x6094F3EE)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_hal_power_manager.o --omf_browse .\client\objects\rf_driver_hal_power_manager.crf --depend .\client\objects\rf_driver_hal_power_manager.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AC40A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_hal_vtimer.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_hal_vtimer.o --omf_browse .\client\objects\rf_driver_hal_vtimer.crf --depend .\client\objects\rf_driver_hal_vtimer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AC408)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_vtimer.h)(0x6094F3E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_timer.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_adc.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_adc.o --omf_browse .\client\objects\rf_driver_ll_adc.crf --depend .\client\objects\rf_driver_ll_adc.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_adc.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_crc.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_crc.o --omf_browse .\client\objects\rf_driver_ll_crc.crf --depend .\client\objects\rf_driver_ll_crc.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_crc.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_dma.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_dma.o --omf_browse .\client\objects\rf_driver_ll_dma.crf --depend .\client\objects\rf_driver_ll_dma.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_dma.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_dmamux.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_exti.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_exti.o --omf_browse .\client\objects\rf_driver_ll_exti.crf --depend .\client\objects\rf_driver_ll_exti.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_flash.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_flash.o --omf_browse .\client\objects\rf_driver_ll_flash.crf --depend .\client\objects\rf_driver_ll_flash.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_gpio.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_gpio.o --omf_browse .\client\objects\rf_driver_ll_gpio.crf --depend .\client\objects\rf_driver_ll_gpio.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_i2c.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_i2c.o --omf_browse .\client\objects\rf_driver_ll_i2c.crf --depend .\client\objects\rf_driver_ll_i2c.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_lpuart.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_lpuart.o --omf_browse .\client\objects\rf_driver_ll_lpuart.crf --depend .\client\objects\rf_driver_ll_lpuart.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_lpuart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_pka_v7b.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_pka_v7b.o --omf_browse .\client\objects\rf_driver_ll_pka_v7b.crf --depend .\client\objects\rf_driver_ll_pka_v7b.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pka_v7b.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_pwr.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_pwr.o --omf_browse .\client\objects\rf_driver_ll_pwr.crf --depend .\client\objects\rf_driver_ll_pwr.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_radio_2g4.c)(0x6094F3F2)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_radio_2g4.o --omf_browse .\client\objects\rf_driver_ll_radio_2g4.crf --depend .\client\objects\rf_driver_ll_radio_2g4.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_vtimer.h)(0x6094F3E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_timer.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_rcc.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_rcc.o --omf_browse .\client\objects\rf_driver_ll_rcc.crf --depend .\client\objects\rf_driver_ll_rcc.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_rng.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_rng.o --omf_browse .\client\objects\rf_driver_ll_rng.crf --depend .\client\objects\rf_driver_ll_rng.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rng.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_rtc.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_rtc.o --omf_browse .\client\objects\rf_driver_ll_rtc.crf --depend .\client\objects\rf_driver_ll_rtc.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rtc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_cortex.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_spi.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_spi.o --omf_browse .\client\objects\rf_driver_ll_spi.crf --depend .\client\objects\rf_driver_ll_spi.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_tim.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_tim.o --omf_browse .\client\objects\rf_driver_ll_tim.crf --depend .\client\objects\rf_driver_ll_tim.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_tim.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_timer.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_timer.o --omf_browse .\client\objects\rf_driver_ll_timer.crf --depend .\client\objects\rf_driver_ll_timer.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_timer.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_usart.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_usart.o --omf_browse .\client\objects\rf_driver_ll_usart.crf --depend .\client\objects\rf_driver_ll_usart.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Drivers/Peripherals_Drivers/src/rf_driver_ll_utils.c)(0x6094F3F4)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rf_driver_ll_utils.o --omf_browse .\client\objects\rf_driver_ll_utils.crf --depend .\client\objects\rf_driver_ll_utils.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_utils.h)(0x6094F3EC)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+F (../../Src/BLE_SerialPort_main.c)(0x62F5C683)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\ble_serialport_main.o --omf_browse .\client\objects\ble_serialport_main.crf --depend .\client\objects\ble_serialport_main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\Inc\bluenrg_lp_it.h)(0x609B2324)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LPx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\ble_const.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_hal.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gatt_server.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_l2cap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\sm.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h)(0x609B2310)
+I (..\..\Inc\app_state.h)(0x609B2324)
+I (..\..\Inc\serial_port.h)(0x609B2324)
+I (..\..\Inc\SerialPort_config.h)(0x609B2324)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h)(0x609B2310)
+I (..\..\Inc\custom_ble_stack_conf.h)(0x609B2324)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc\OTA_btl.h)(0x609B2310)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_vtimer.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_timer.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bleplat.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db.h)(0x6094F09C)
+I (..\..\..\..\..\Middlewares\ST\PKAMGR\Inc\pka_manager.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\RNGMGR\Inc\rng_manager.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\BLECNTR\Inc\ble_controller.h)(0x609B2312)
+F (../../Src/bluenrg_lp_it.c)(0x609B2324)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\bluenrg_lp_it.o --omf_browse .\client\objects\bluenrg_lp_it.crf --depend .\client\objects\bluenrg_lp_it.d)
+I (..\..\Inc\bluenrg_lp_it.h)(0x609B2324)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LPx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\ble_const.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_hal.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gatt_server.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_l2cap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\sm.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h)(0x609B2310)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\hal_miscutil.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\crash_handler.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_vtimer.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_timer.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+F (../../Src/gatt_db.c)(0x609B2324)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\gatt_db.o --omf_browse .\client\objects\gatt_db.crf --depend .\client\objects\gatt_db.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\ble_const.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_hal.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gatt_server.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_l2cap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\sm.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+I (..\..\Inc\app_state.h)(0x609B2324)
+I (..\..\Inc\serial_port.h)(0x609B2324)
+I (..\..\Inc\SerialPort_config.h)(0x609B2324)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h)(0x609B2310)
+I (..\..\Inc\custom_ble_stack_conf.h)(0x609B2324)
+F (../../Src/serial_port.c)(0x62D8DCAA)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\serial_port.o --omf_browse .\client\objects\serial_port.crf --depend .\client\objects\serial_port.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\gp_timer.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LPx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\ble_const.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_hal.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gatt_server.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_l2cap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\sm.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h)(0x609B2310)
+I (..\..\Inc\app_state.h)(0x609B2324)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+I (..\..\Inc\gatt_db.h)(0x609B2324)
+I (..\..\Inc\serial_port.h)(0x609B2324)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gap_profile.h)(0x609B2312)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h)(0x62F5CC4C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h)(0x6094F3EA)
+I (..\..\Inc\app_main.h)(0x62833A44)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h)(0x6094F21E)
+I (../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h)(0x6094F21E)
+I (..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h)(0x6094F21E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AC402)
+I (..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h)(0x6094F21E)
+F (../../../../../Middlewares/ST/AESMGR/Src/aes_manager_bluenrg_lp.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\aes_manager_bluenrg_lp.o --omf_browse .\client\objects\aes_manager_bluenrg_lp.crf --depend .\client\objects\aes_manager_bluenrg_lp.d)
+I (..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+F (../../../../../Middlewares/ST/Bluetooth_LE/Library/libbluenrg_lp_stack.a)(0x609B2312)()
+F (../../../../../Middlewares/ST/Bluetooth_LE/Src/stack_user_cfg.c)(0x609B2310)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\stack_user_cfg.o --omf_browse .\client\objects\stack_user_cfg.crf --depend .\client\objects\stack_user_cfg.d)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\Inc\custom_ble_stack_conf.h)(0x609B2324)
+F (../../../../../Middlewares/ST/BLECNTR/Src/ble_controller.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\ble_controller.o --omf_browse .\client\objects\ble_controller.crf --depend .\client\objects\ble_controller.d)
+I (..\..\..\..\..\Middlewares\ST\BLECNTR\Inc\ble_controller.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rng.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Middlewares/ST/BLECNTR/Src/ble_controller_bluenrg_lp.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\ble_controller_bluenrg_lp.o --omf_browse .\client\objects\ble_controller_bluenrg_lp.crf --depend .\client\objects\ble_controller_bluenrg_lp.d)
+I (..\..\..\..\..\Middlewares\ST\BLECNTR\Inc\ble_controller.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\BLECNTR\Inc\ble_controller_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+F (../../../../../Middlewares/ST/cryptolib/aes_hw.c)(0x609B2310)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\aes_hw.o --omf_browse .\client\objects\aes_hw.crf --depend .\client\objects\aes_hw.d)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\crypto.h)(0x6094F0A2)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\config.h)(0x6094F0A2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AC40A)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/types.h)(0x6094F0A2)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/macros.h)(0x6094F0A2)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h)(0x6094F0A2)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/sk.h)(0x6094F0A2)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/aes.h)(0x6094F0A0)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_low_level.h)(0x6094F0A0)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_common.h)(0x6094F0A0)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/ECB/aes_ecb.h)(0x6094F0A0)
+I (..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/CMAC/aes_cmac.h)(0x6094F0A0)
+I (..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h)(0x609B2312)
+F (../../../../../Middlewares/ST/cryptolib/libcrypto.a)(0x609B2310)()
+F (../../../../../Middlewares/ST/hal/Src/blue_unit_conversion.s)(0x60474FA2)(--cpu Cortex-M0+ -g --apcs=interwork --cpreproc-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--list .\client\listings\blue_unit_conversion.lst --xref -o .\client\objects\blue_unit_conversion.o --depend .\client\objects\blue_unit_conversion.d)
+F (../../../../../Middlewares/ST/hal/Src/clock.c)(0x62205B49)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\clock.o --omf_browse .\client\objects\clock.crf --depend .\client\objects\clock.d)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LPx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_utils.h)(0x6094F3EC)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rcc.h)(0x6094F3EA)
+F (../../../../../Middlewares/ST/hal/Src/context_switch.s)(0x60474FA2)(--cpu Cortex-M0+ -g --apcs=interwork --cpreproc-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--list .\client\listings\context_switch.lst --xref -o .\client\objects\context_switch.o --depend .\client\objects\context_switch.d)
+F (../../../../../Middlewares/ST/hal/Src/fifo.c)(0x6094F0A6)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\fifo.o --omf_browse .\client\objects\fifo.crf --depend .\client\objects\fifo.d)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\fifo.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+F (../../../../../Middlewares/ST/hal/Src/gp_timer.c)(0x6094F0A6)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\gp_timer.o --omf_browse .\client\objects\gp_timer.crf --depend .\client\objects\gp_timer.d)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\clock.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\BlueNRG_LPx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\gp_timer.h)(0x6094F0A4)
+F (../../../../../Middlewares/ST/hal/Src/hal_miscutil.c)(0x6094F0A6)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\hal_miscutil.o --omf_browse .\client\objects\hal_miscutil.crf --depend .\client\objects\hal_miscutil.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_utils.h)(0x6094F3EC)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\hal_miscutil.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\crash_handler.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+F (../../../../../Middlewares/ST/hal/Src/miscutil.c)(0x6094F0A6)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\miscutil.o --omf_browse .\client\objects\miscutil.crf --depend .\client\objects\miscutil.d)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_system.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_utils.h)(0x6094F3EC)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\miscutil.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\hal_miscutil.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\crash_handler.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bleplat.h)(0x609B2310)
+F (../../../../../Middlewares/ST/hal/Src/osal.c)(0x6094F0A6)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\osal.o --omf_browse .\client\objects\osal.crf --depend .\client\objects\osal.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+F (../../../../../Middlewares/ST/hal/Src/osal_memcpy.s)(0x60474FA2)(--cpu Cortex-M0+ -g --apcs=interwork --cpreproc-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527"--list .\client\listings\osal_memcpy.lst --xref -o .\client\objects\osal_memcpy.o --depend .\client\objects\osal_memcpy.d)
+F (../../../../../Middlewares/ST/NVMDB/Src/nvm_db.c)(0x6094F09C)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\nvm_db.o --omf_browse .\client\objects\nvm_db.crf --depend .\client\objects\nvm_db.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db.h)(0x6094F09C)
+I (..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db_conf.h)(0x6094F09C)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h)(0x6094F3E8)
+F (../../../../../Middlewares/ST/NVMDB/Src/nvm_db_conf.c)(0x6094F09C)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\nvm_db_conf.o --omf_browse .\client\objects\nvm_db_conf.crf --depend .\client\objects\nvm_db_conf.d)
+I (..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db_conf.h)(0x6094F09C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h)(0x6094F3E8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AC40A)
+F (../../../../../Middlewares/ST/NVMDB/Src/nvm_db_upper_layer.c)(0x6094F09E)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\nvm_db_upper_layer.o --omf_browse .\client\objects\nvm_db_upper_layer.crf --depend .\client\objects\nvm_db_upper_layer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_flash.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_vtimer.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_timer.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_radio_2g4.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db.h)(0x6094F09C)
+I (..\..\..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db_conf.h)(0x6094F09C)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bleplat.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h)(0x609B2310)
+F (../../../../../Middlewares/ST/BLE_Application/OTA/Src/OTA_btl.c)(0x609B2310)()
+F (../../../../../Middlewares/ST/PKAMGR/Src/pka_manager.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\pka_manager.o --omf_browse .\client\objects\pka_manager.crf --depend .\client\objects\pka_manager.d)
+I (..\..\..\..\..\Middlewares\ST\PKAMGR\Inc\pka_manager.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\RNGMGR\Inc\rng_manager.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+F (../../../../../Middlewares/ST/PKAMGR/Src/pka_manager_bluenrg_lp.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\pka_manager_bluenrg_lp.o --omf_browse .\client\objects\pka_manager_bluenrg_lp.crf --depend .\client\objects\pka_manager_bluenrg_lp.d)
+I (..\..\..\..\..\Middlewares\ST\PKAMGR\Inc\pka_manager.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\PKAMGR\Inc\pka_manager_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pka_v7b.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_hal_power_manager.h)(0x6094F3E6)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)
+F (../../../../../Middlewares/ST/BLE_Application/Profiles/Src/gap_profile.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\gap_profile.o --omf_browse .\client\objects\gap_profile.crf --depend .\client\objects\gap_profile.d)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gap_profile.h)(0x609B2312)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h)(0x609B2310)
+F (../../../../../Middlewares/ST/BLE_Application/Profiles/Src/gatt_profile.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\gatt_profile.o --omf_browse .\client\objects\gatt_profile.crf --depend .\client\objects\gatt_profile.d)
+I (..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc\gatt_profile.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h)(0x609B2310)
+I (..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h)(0x609B2310)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\osal.h)(0x6094F0A6)
+F (../../../../../Middlewares/ST/RNGMGR/Src/rng_manager.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rng_manager.o --omf_browse .\client\objects\rng_manager.crf --depend .\client\objects\rng_manager.d)
+I (..\..\..\..\..\Middlewares\ST\RNGMGR\Inc\rng_manager.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rng.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+F (../../../../../Middlewares/ST/RNGMGR/Src/rng_manager_bluenrg_lp.c)(0x609B2312)(--c99 -c --cpu Cortex-M0+ -g -O3 --apcs=interwork --split_sections -I ..\..\Inc -I ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc -I ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include -I ..\..\..\..\..\Middlewares\ST\hal\Inc -I ..\..\..\..\..\Middlewares\ST\PKAMGR\Inc -I ..\..\..\..\..\Middlewares\ST\RNGMGR\Inc -I ..\..\..\..\..\Middlewares\ST\AESMGR\Inc -I ..\..\..\..\..\Middlewares\ST\BLECNTR\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Drivers\CMSIS\Include -I ../../../../../Drivers/BSP/STEVAL-IDB011V1/Inc -I ..\..\..\..\..\Drivers\BSP\Common\Inc -I ..\..\..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver -I ..\..\..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver -I ..\..\..\..\..\Middlewares\ST\BLE_Application\layers_inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\OTA\inc -I ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc -I ..\..\..\..\..\Middlewares\ST\NVMDB\Inc -I ..\..\..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common -I ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES-I.\RTE\_Client-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DUSE_FULL_LL_DRIVER -DSTEVAL_IDB011V1 -DCLIENT="1" -DCONFIG_DEVICE_BLUENRG_LP -DCONFIG_HW_SMPS_10uH -DCONFIG_HW_HSE_TUNE="38" -DUSER_BUTTON="BSP_PUSH1" -DCONFIG_HW_LS_RO -DBLE_STACK_CUSTOM_CONF-o .\client\objects\rng_manager_bluenrg_lp.o --omf_browse .\client\objects\rng_manager_bluenrg_lp.crf --depend .\client\objects\rng_manager_bluenrg_lp.d)
+I (..\..\..\..\..\Middlewares\ST\RNGMGR\Inc\rng_manager.h)(0x609B2312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)
+I (..\..\..\..\..\Middlewares\ST\RNGMGR\Inc\rng_manager_bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_rng.h)(0x6094F3EA)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h)(0x609B2312)
+I (..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6094F222)
+I (..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h)(0x6094F222)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h)(0x6094F0A6)
+I (..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h)(0x6094F0A4)
+I (..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h)(0x6094F3E8)
+I (..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h)(0x609B2312)

@@ -1,0 +1,17 @@
+.\client\objects\aes_manager_bluenrg_lp.o: ../../../../../Middlewares/ST/AESMGR/Src/aes_manager_bluenrg_lp.c
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h
+.\client\objects\aes_manager_bluenrg_lp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager_bluenrg_lp.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_bluenrg_lp.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\client\objects\aes_manager_bluenrg_lp.o: ..\..\..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h

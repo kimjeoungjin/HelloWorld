@@ -1,0 +1,9 @@
+.\server\objects\stack_user_cfg.o: ../../../../../Middlewares/ST/Bluetooth_LE/Src/stack_user_cfg.c
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
+.\server\objects\stack_user_cfg.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\server\objects\stack_user_cfg.o: ..\..\..\..\..\Middlewares\ST\hal\Inc\system_util.h

@@ -1,0 +1,16 @@
+.\client\objects\aes_hw.o: ../../../../../Middlewares/ST/cryptolib/aes_hw.c
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\crypto.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\config.h
+.\client\objects\aes_hw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\client\objects\aes_hw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/types.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/macros.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\Common/sk.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/aes.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_low_level.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_common.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/ECB/aes_ecb.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\cryptolib\inc\AES/CMAC/aes_cmac.h
+.\client\objects\aes_hw.o: ..\..\..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h
